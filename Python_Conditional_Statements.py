@@ -58,4 +58,19 @@ if username == "admin" and password == "1234":
 else:
     print("Login failed")
 
+
 #---------------------------------------------------------------
+
+
+# 1. Write a program to find the greatest among three numbers. 
+x = int(input("x:-"))
+y = int(input("y:-"))
+z = int(input("z:-"))
+if x>y and x>z:
+     a = x,"is greatest one"
+elif y>x and y>z:
+     a = y,"is greatest one"
+else:
+     a = z,"is greatest one"
+     
+print(a)
