@@ -63,6 +63,8 @@ else:
 
 
 # 1. Write a program to find the greatest among three numbers. 
+
+
 x = int(input("x:-"))
 y = int(input("y:-"))
 z = int(input("z:-"))
@@ -74,3 +76,18 @@ else:
      a = z,"is greatest one"
      
 print(a)
+
+
+#----------------------------------------------------------------------
+# 2. Write a program to check whether a number is positive, negative, or zero using nested if. 
+
+
+numm = int(input("number:-"))
+if numm==0:
+     a = numm, "is zero"
+elif numm>0:
+     a = numm, "is postive"
+else:
+     a = numm, "is negative"
+print(a)
+
