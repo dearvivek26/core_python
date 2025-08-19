@@ -91,3 +91,25 @@ else:
      a = numm, "is negative"
 print(a)
 
+
+#----------------------------------------------------------------------
+
+# 3. Write a program to assign grades based on marks: 
+#                                         o 90+ = A 
+#                                         o 80-89 = B 
+#                                         o 70-79 = C 
+#                                         o Below 70 = F 
+
+
+marks = int(input("marks:-"))
+if marks>=90:
+     p = "A"
+elif marks>=80:
+     p = "B"
+elif marks>=70:
+     p = "c"
+else:
+     p = "F"
+print(p)
+
+
